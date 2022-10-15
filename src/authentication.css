@@ -1,6 +1,17 @@
 #signup-container{
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+}
+
+#signup-container > form {
     display: flex;
     flex-direction: column;
+    margin: auto;
+}
+
+#signup-container > form > input, button {
+    width: 640px;
 }
 
 #login-container{
