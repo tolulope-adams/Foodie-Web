@@ -11,7 +11,8 @@
 }
 
 #signup-container > form > input, button {
-    width: 640px;
+    width: 240px;
+    height: 36px;
 }
 
 #login-container{
